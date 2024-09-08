@@ -1,7 +1,7 @@
 <template>
   <section class="bento-cards">
     <div class="column">
-      <Testimonial picture="/images/photos/foto1.jpeg" alt="Lourdes Illán" :delay="600">
+      <Testimonial picture="/images/photos/foto1.jpeg" alt="Lourdes Illán">
         Por lo tanto, ante la manifestación de una posible o cierta orientación homosexual,
         <Annotated>se debe animar a la persona a buscar ayuda profesional</Annotated>.
         Pero de un profesional que intente averiguar el origen y pueda realizar un proceso
@@ -44,7 +44,7 @@
       </Headline>
     </div>
     <div class="column">
-      <Testimonial picture="/images/photos/foto2.png" alt="Manuel Barceló Iranzo" :delay="900">
+      <Testimonial picture="/images/photos/foto2.png" alt="Manuel Barceló Iranzo">
         El enfermo siempre es el más rico en sentimientos de alto rango. ¡Ayudémosle!
         Que alcance su máximo enriquecimiento, porque rozará con sus dedos las altas
         cumbres de la felicidad humana. (...)  La homosexualidad, como otras formas de uso

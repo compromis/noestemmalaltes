@@ -5,7 +5,7 @@ import BFooter from '@compromis/blobby/components/footer/BFooter.vue'
 </script>
 
 <template>
-  <div>
+  <div class="site">
     <BNav>
       <BNavItem v-if="$route.path === '/cas'" href="/">Valencià</BNavItem>
       <BNavItem v-else href="/cas">Castellano</BNavItem>
@@ -22,6 +22,10 @@ import BFooter from '@compromis/blobby/components/footer/BFooter.vue'
 </template>
 
 <style lang="scss">
+.site {
+  background: var(--beige);
+}
+
 .nav-logo-append {
   margin-left: 1rem;
 }
