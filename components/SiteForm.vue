@@ -45,10 +45,12 @@ const strings = {
     button: 'Enviar'
   },
   cas: {
-    title: 'Firma contra la ampliación del Aeropuerto de Manises',
+    title: '¿Tienes información sobre la trama de “terapias” de conversión? Ponte en contacto',
     first_name: 'Nombre',
     last_name: 'Apellidos',
-    button: 'Firmar'
+    phone: 'Teléfono (opcional)',
+    message: 'Mensaje',
+    button: 'Enviar'
   }
 }
 

@@ -24,15 +24,11 @@ export default defineNuxtConfig({
           rel: 'stylesheet',
           href: 'https://compromis.net/sub/fonts/manrope.css?variable',
         },
-      ],
-      script: [
-        { type: 'text/javascript', src: '//js-eu1.hsforms.net/forms/embed/v2.js', charset: 'utf-8' }
       ]
     }
   },
 
   css: [
-    '@compromis/blobby/scss/blobby.scss',
     '~/assets/scss/main.scss'
   ],
 
@@ -59,6 +55,6 @@ export default defineNuxtConfig({
   },
 
   cloudflareAnalytics: {
-    token: '4f0bbe7ec8634572b785479f6b3ef626'
+    token: '640825047f3f4693a20c8a7a3ddb8aa2'
   }
 })
