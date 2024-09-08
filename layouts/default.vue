@@ -9,7 +9,7 @@ import BFooter from '@compromis/blobby/components/footer/BFooter.vue'
     <BNav>
       <BNavItem v-if="$route.path === '/cas'" href="/">Valencià</BNavItem>
       <BNavItem v-else href="/cas">Castellano</BNavItem>
-      <template #logo-append>Aeroport sostenible</template>
+      <template #logo-append>No estem malaltes</template>
     </BNav>
 
     <slot />

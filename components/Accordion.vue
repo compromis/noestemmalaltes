@@ -12,7 +12,7 @@ function setItem(id) {
 </script>
 
 <template>
-  <div :id="id" class="accordion card bg-white rounded-md">
+  <div :id="id" class="accordion card bg-white rounded-md" v-motion-slide-visible-bottom>
     <div v-for="(item, i) in content" :key="i" class="accordion-item">
       <h4 class="accordion-title">
         <button

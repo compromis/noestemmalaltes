@@ -56,7 +56,7 @@ const t = computed(() => props.cas ? strings.cas : strings.val)
 </script>
 
 <template>
-  <section class="form card">
+  <section class="form card" v-motion-slide-visible-bottom>
     <BCard padded shadow>
       <h2>{{ t.title }}</h2>
       

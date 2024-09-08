@@ -48,17 +48,19 @@ const accordion = [
           No estem malaltes
         </h1>
 
-        <Languages />
+        <Languages v-motion-slide-visible-bottom :delay="100" />
 
-        <div v-motion-fade-visible class="quote">
+        <div v-motion-slide-visible-bottom :delay="200" class="quote">
+          <img src="../assets/images/logos/un.svg" alt="Nacions Unides" />
           <blockquote>
-            “Totes les «teràpies de conversió» comparteixen la premissa que l'orientació sexual i la identitat de gènere poden ser extirpades -expulsades, curades o rehabilitades-, com si foren alguna cosa aliena a la persona, la qual cosa constitueix una visió summament inhumana de l'existència humana”
+            “Totes les «teràpies de conversió» comparteixen la premissa que l'orientació sexual i la identitat de gènere poden ser extirpades -expulsades, curades o rehabilitades-, com si foren alguna cosa aliena a la persona, la qual cosa <Annotated type="highlight" inmediate>constitueix una visió summament inhumana de l'existència humana</Annotated>.”
           </blockquote>
           <p>&mdash; <a href="https://documents.un.org/doc/undoc/gen/g20/108/71/pdf/g2010871.pdf" target="_blank">Expert independent de Nacions Unides sobre orientació sexual i identitat de gènere.</a></p>
         </div>
       </section>
     </div>
-    <Carousel />
+    <div class="connection">Frase de connexió...</div>
+    <BentoCards />
     <Accordion id="accordtion" :content="accordion" />
     <SiteForm id="firma" />
     <Share>

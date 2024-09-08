@@ -2,6 +2,7 @@
 @import 'bootstrap/scss/functions';
 @import 'bootstrap/scss/variables';
 @import 'bootstrap/scss/mixins';
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 :root {
   --text-sm: 1.25rem;
@@ -98,35 +99,30 @@ main .container {
       background: var(--yellow);
     }
   }
+
+  img {
+    height: 4rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.connection {
+  text-align: center;
+  font-size: var(--text-xl);
+  margin: 2rem 0;
+  font-weight: bold;
+}
+
+.headline-font {
+  font-family: "DM Serif Display", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 @media (max-width: 1500px) {
   .text-intro {
     max-width: 600px;
     margin-left: auto;
-  }
-}
-
-@include media-breakpoint-down(md) {
-  body {
-    background: transparent;
-
-    &::before {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background-image: url(../images/sky.jpg);
-      background-size: cover;
-      z-index: -2;
-    }
-
-    &::after {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background: rgba(#005492, .85);
-      z-index: -1;
-    }
   }
 }
 
