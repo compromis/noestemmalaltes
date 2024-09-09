@@ -57,13 +57,18 @@ const accordion = [
           <p>&mdash; <a href="https://documents.un.org/doc/undoc/gen/g20/108/71/pdf/g2010871.pdf" target="_blank">Expert independent de <img src="../assets/images/logos/un.svg" alt="Nacions Unides" class="un-logo" /> <strong>Nacions Unides</strong> sobre orientació sexual i identitat de gènere.</a></p>
         </div>
       </section>
-    </div>
-    <div class="connection" v-motion-slide-visible-bottom :delay="300">
-      Frase de connexió...
+
+      <div class="connection" v-motion-slide-visible-bottom :delay="300">
+        Les "teràpies de conversió" contra les persones LGTBI són un atac als drets humans. No descansarem fins destapar tota esta trama i garantir que totes les escoles siguen espais segurs per a totes i tots.
+      </div>
+
+      <div class="intro-cta">
+        <a href="#contacta">Tens informació sobre la trama? Contacta amb nosaltres</a>
+      </div>
     </div>
     <BentoCards />
     <Accordion id="accordtion" :content="accordion" />
-    <SiteForm id="firma" />
+    <SiteForm id="contacta" />
     <Share>
       <template #title>Fes-ne difusió!</template>
       <p>Comparteix aquesta pàgina amb les teues amistats.</p>

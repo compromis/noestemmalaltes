@@ -18,20 +18,20 @@ const accordion = [
   {
     number: 'material-symbols:person-pin',
     color: 'blue',
-    title: 'Què son les teràpies de conversió?',
+    title: '¿Qué son las terapias de conversión?',
     text: [
-      'La llei valenciana LGTBI prohibeix la pràctica de mètodes, programes i teràpies d’aversió, conversió o contracondicionament destinades a modificar l’orientació sexual, la identitat de gènere o l’expressió de gènere de les persones.',
-      'En alguns àmbits acadèmics es defineixen estes pràctiques com qualsevol tractament, pràctica o esforç sostingut que tinga com a objectiu reprimir, descoratjar o canviar l\'orientació sexual, la identitat de gènere, la modalitat de gènere, l\'expressió de gènere o qualsevol comportament associat amb un gènere diferent de l\'assignat en nàixer o que tinga com a objectiu alterar un tret intersexual sense una justificació adequada.'
+      'La ley valenciana LGTBI prohíbe la práctica de métodos, programas y terapias de aversión, conversión o contracondicionamiento destinadas a modificar la orientación sexual, la identidad de género o la expresión de género de las personas.',
+      'En algunos ámbitos académicos se definen estas prácticas como cualquier tratamiento, práctica o esfuerzo sostenido que tenga como objetivo reprimir, desalentar o cambiar la orientación sexual, la identidad de género, la modalidad de género, la expresión de género o cualquiera comportamiento asociado con un género diferente al asignado al nacer o que tenga como objetivo alterar un rasgo intersexual sin una justificación adecuada.'
     ]
   },
   {
     number: 'mdi:bar-chart',
     color: 'purple',
-    title: 'Què hem proposat des de Compromís?',
+    title: '¿Qué hemos propuesto desde Compromís?',
     text: [
-      'Hem proposat la creació d’una comissió d’investigació a les Corts per tal d’investigar la trama de teràpies de conversió present en alguns centres educatius i religiosos valencians.',
-      'Hem prohibit les teràpies de conversió a les lleis valencianes trans i LGTBI',
-      'Defensem, a més, la tipificació de la pràctica d’estes teràpies al codi Penal perquè la prohibició puga ser realment efectiva. Durant la tramitació de la Llei Estatal LGTBI vàrem donar suport a la seua inclusió a través d’una esmena que, malauradament, va ser rebutjada per la majoria del Congrés.'
+      'Hemos propuesto la creación de una comisión de investigación en Les Corts para investigar la trama de terapias de conversión presente en algunos centros educativos y religiosos valencianos.',
+      'Hemos prohibido las terapias de conversión en las leyes valencianas trans y LGTBI',
+      'Defendemos, además, la tipificación de la práctica de estas terapias en el código Penal para que la prohibición pueda ser realmente efectiva. Durante la tramitación de la Ley Estatal LGTBI apoyamos su inclusión a través de una enmienda que, desgraciadamente, fue rechazada por la mayoría del Congreso.'
     ]
   }
 ]
@@ -52,18 +52,23 @@ const accordion = [
 
         <div v-motion-slide-visible-bottom :delay="200" class="quote">
           <blockquote>
-            “Totes les «teràpies de conversió» comparteixen la premissa que l'orientació sexual i la identitat de gènere poden ser extirpades -expulsades, curades o rehabilitades-, com si foren alguna cosa aliena a la persona, la qual cosa <Annotated type="highlight" inmediate>constitueix una visió summament inhumana de l'existència humana</Annotated>.”
+            "Todas las "terapias de conversión" comparten la premisa de que la orientación sexual y la identidad de género pueden ser extirpadas -expulsadas, curadas o rehabilitadas-, como si fueran algo ajeno a la persona, lo que <Annotated type="highlight" inmediate>constituye una visión sumamente inhumana de la existencia humana</Annotated>.”
           </blockquote>
           <p>&mdash; <a href="https://documents.un.org/doc/undoc/gen/g20/108/71/pdf/g2010871.pdf" target="_blank">Expert independent de <img src="../assets/images/logos/un.svg" alt="Nacions Unides" class="un-logo" /> <strong>Nacions Unides</strong> sobre orientació sexual i identitat de gènere.</a></p>
         </div>
       </section>
-    </div>
-    <div class="connection" v-motion-slide-visible-bottom :delay="300">
-      Frase de connexió...
+
+      <div class="connection" v-motion-slide-visible-bottom :delay="300">
+        Las "terapias de conversión" contra las personas LGTBI son un ataque a derechos humanos. No descansaremos hasta destapar toda esta trama y garantizar que todas las escuelas sean espacios seguros para todas y todos.
+      </div>
+
+      <div class="intro-cta">
+        <a href="#contacta">¿Tienes información sobre la trama? Contacta con nosotros</a>
+      </div>
     </div>
     <BentoCards />
     <Accordion id="accordtion" :content="accordion" />
-    <SiteForm id="firma" />
+    <SiteForm id="contacta" />
     <Share>
       <template #title>Haz difusión</template>
       <p>Comparte esta página con tus amistades.</p>

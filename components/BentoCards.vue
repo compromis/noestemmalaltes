@@ -26,8 +26,8 @@
         ridiculizándolo o avergonzándolo ante los demás. Se conseguiría todo lo contrario:
         reforzar la conducta. Lo primero debería ser ganarse su confianza y establecer una
         vinculación sana con él. Después, dada la inseguridad y los miedos que padece en el
-        mundo viril (que le atrae a la vez que le asusta), con delicadeza y de diversas maneras,
-        debe conducirlo como un imán hacia las realidades masculinas. Si esta carencia de identidad
+        mundo viril (que le atrae a la vez que le asusta), con delicadeza y <Annotated>de diversas maneras,
+        debe conducirlo como un imán hacia las realidades masculinas</Annotated>. Si esta carencia de identidad
         masculina (que la mayoría de veces tiene como origen una carencia de apego paterno)
         se prolonga y no se toma en serio, puede derivar en la adolescencia en el deseo de cambio
         de sexo o la proyección hacia el mismo sexo.
