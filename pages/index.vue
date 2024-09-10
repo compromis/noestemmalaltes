@@ -8,8 +8,8 @@ useHead({
 useSeoMeta({
   title: 'No estem malaltes - Compromís',
   ogTitle: 'No estem malaltes - Compromís',
-  description: '.',
-  ogDescription: '.',
+  description: 'Les "teràpies de conversió" contra les persones LGTBI són un atac als drets humans. No descansarem fins destapar tota esta trama i garantir que totes les escoles siguen espais segurs per a totes i tots.',
+  ogDescription: 'Les "teràpies de conversió" contra les persones LGTBI són un atac als drets humans. No descansarem fins destapar tota esta trama i garantir que totes les escoles siguen espais segurs per a totes i tots.',
   ogImage: 'https://noestemmalaltes.com/images/ogimage.png',
   twitterCard: 'summary_large_image',
 })

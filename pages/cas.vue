@@ -8,8 +8,8 @@ useHead({
 useSeoMeta({
   title: 'No estamos enfermas - Compromís',
   ogTitle: 'No estamos enfermas - Compromís',
-  description: '.',
-  ogDescription: '.',
+  description: 'Todas las "terapias de conversión" comparten la premisa de que la orientación sexual y la identidad de género pueden ser extirpadas -expulsadas, curadas o rehabilitadas-, como si fueran algo ajeno a la persona, lo que constituye una visión sumamente inhumana de la existencia humana.',
+  ogDescription: 'Todas las "terapias de conversión" comparten la premisa de que la orientación sexual y la identidad de género pueden ser extirpadas -expulsadas, curadas o rehabilitadas-, como si fueran algo ajeno a la persona, lo que constituye una visión sumamente inhumana de la existencia humana.',
   ogImage: 'https://noestamosenfermas.com/images/ogimage_cas.png',
   twitterCard: 'summary_large_image',
 })
@@ -52,7 +52,7 @@ const accordion = [
 
         <div v-motion-slide-visible-bottom :delay="200" class="quote">
           <blockquote>
-            "Todas las "terapias de conversión" comparten la premisa de que la orientación sexual y la identidad de género pueden ser extirpadas -expulsadas, curadas o rehabilitadas-, como si fueran algo ajeno a la persona, lo que <Annotated type="highlight" inmediate>constituye una visión sumamente inhumana de la existencia humana</Annotated>.”
+            Todas las "terapias de conversión" comparten la premisa de que la orientación sexual y la identidad de género pueden ser extirpadas -expulsadas, curadas o rehabilitadas-, como si fueran algo ajeno a la persona, lo que <Annotated type="highlight" inmediate>constituye una visión sumamente inhumana de la existencia humana</Annotated>.
           </blockquote>
           <p>&mdash; <a href="https://documents.un.org/doc/undoc/gen/g20/108/71/pdf/g2010871.pdf" target="_blank">Expert independent de <img src="../assets/images/logos/un.svg" alt="Nacions Unides" class="un-logo" /> <strong>Nacions Unides</strong> sobre orientació sexual i identitat de gènere.</a></p>
         </div>
