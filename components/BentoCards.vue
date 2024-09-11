@@ -33,7 +33,7 @@
         de sexo o la proyección hacia el mismo sexo.
 
         <template #author>
-          <strong>Óscar García Mulet</strong> - Professor de secundària i colaborador del centre Mater Misericordiae
+          <strong>Óscar García Mulet</strong> - Professor de secundària i col·laborador del centre Mater Misericordiae
         </template>
       </Testimonial>
       <Headline source="eldiario">
