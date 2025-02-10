@@ -44,6 +44,20 @@
       </Headline>
     </div>
     <div class="column">
+      <Testimonial picture="/images/photos/foto5.jpg" alt="Jose Ignacio Munilla">
+        Lo que llaman "terapia de conversión", en realidad, no existe. Es tan solo un <Annotated>"constructo ideológico" del marxismo para impedir a la Iglesia acompañar pastoralmente a las personas con inclinaciones homosexuales, ayudándoles a vivir la virtud de la castidad...</Annotated>
+        Por otra parte, resulta irónico que quienes defienden la libertad para cambiarse de sexo -hormonas y cirugías incluidas-, prohíban a los homosexuales solicitar libremente lo que ellos califican como "terapia de conversión"... ¿?🤔¿? 😏
+        Es una demostración palmaria de que no creen en la libertad, de la que tanto alardeaban; además de ser una prueba más de la falta de libertad religiosa que estamos padeciendo.
+
+        <template #source>
+          <a href="https://x.com/ObispoMunilla/status/1879253786566262918" target="_blank" style="margin-top: .5rem;display:block">Tweet</a>
+        </template>
+
+        <template #author>
+          <strong>Jose Ignacio Munilla</strong> - Obispo de Orihuela-Alacant
+          
+         </template>
+      </Testimonial>
       <Testimonial picture="/images/photos/foto2.png" alt="Manuel Barceló Iranzo">
         El enfermo siempre es el más rico en sentimientos de alto rango. ¡Ayudémosle!
         Que alcance su máximo enriquecimiento, porque rozará con sus dedos las altas

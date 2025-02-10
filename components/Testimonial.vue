@@ -17,6 +17,7 @@
         </div>
         <slot />&#8221;
       </blockquote>
+      <slot name="source" />
     </div>
   </article>
 </template>
