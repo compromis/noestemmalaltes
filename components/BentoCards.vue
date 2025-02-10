@@ -42,6 +42,13 @@
       <Headline source="levante">
         Compromís denuncia que el centro de las “terapias de conversión” sexual tiene su razón social en un edificio del Arzobispado
       </Headline>
+      <Headline source="lasprovincias">
+        Compromís denuncia que un profesor de otro colegio de Valencia promociona las terapias de conversión sexual
+      
+        <template #subheading>
+          El diputado Francesc Roig desvela que un libro del docente, que ofrece pautas para actuar ante niños «afeminados», se ha utilizado en el centro y que el profesor ha dado tutorías de educación sexual
+        </template>
+      </Headline>
     </div>
     <div class="column">
       <Testimonial picture="/images/photos/foto5.jpg" alt="Jose Ignacio Munilla">
@@ -92,13 +99,6 @@
       
         <template #subheading>
           Una de las víctimas que pasó por el Mater Misericordiae relata cómo eran las terapias desde dentro, en las que había hasta 50 jóvenes "en tratamiento"
-        </template>
-      </Headline>
-      <Headline source="lasprovincias">
-        Compromís denuncia que un profesor de otro colegio de Valencia promociona las terapias de conversión sexual
-      
-        <template #subheading>
-          El diputado Francesc Roig desvela que un libro del docente, que ofrece pautas para actuar ante niños «afeminados», se ha utilizado en el centro y que el profesor ha dado tutorías de educación sexual
         </template>
       </Headline>
     </div>
